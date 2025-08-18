@@ -17,7 +17,6 @@ import {
 } from '@/components/ui/chat/chat-bubble';
 import WelcomeModal from '@/components/welcome-modal';
 import { Info } from 'lucide-react';
-import { GithubButton } from '../ui/github-button';
 import HelperBoost from './HelperBoost';
 
 // ClientOnly component for client-side rendering
@@ -284,14 +283,6 @@ const Chat = () => {
             </div>
           }
         />
-        <div className="">
-          <GithubButton
-            animationDuration={1.5}
-            label="Star"
-            size={'sm'}
-            repoUrl="https://github.com/toukoum/portfolio"
-          />
-        </div>
       </div>
 
       {/* Fixed Avatar Header with Gradient */}
@@ -393,12 +384,12 @@ const Chat = () => {
           </div>
         </div>
         <a
-          href="https://x.com/toukoumcode"
+          href="https://github.com/marifuli"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed right-3 bottom-0 z-10 mb-4 hidden cursor-pointer items-center gap-2 rounded-xl px-4 py-2 text-sm hover:underline md:block"
         >
-          @toukoum
+          @marifuli
         </a>
       </div>
     </div>

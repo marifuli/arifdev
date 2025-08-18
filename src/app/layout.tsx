@@ -7,21 +7,21 @@ import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 // Load Inter font for non-Apple devices
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
-  title: "Toukoum Portfolio",
+  title: "ArifDev Portfolio",
   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
   keywords: [
-    "Toukoum", 
-    "Portfolio", 
-    "Developer", 
-    "AI", 
-    "Interactive", 
-    "Memoji", 
+    "ArifDev",
+    "Portfolio",
+    "Developer",
+    "AI",
+    "Interactive",
+    "Memoji",
     "Web Development",
     "Full Stack",
     "Next.js",
@@ -29,22 +29,22 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Toukoum",
+      name: "Ariful",
       url: "https://toukoum.fr",
     },
   ],
-  creator: "Toukoum",
+  creator: "ArifDev",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://toukoum.fr",
-    title: "Toukoum Portfolio",
+    title: "ArifDev Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Toukoum Portfolio",
+    siteName: "ArifDev Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Toukoum Portfolio",
+    title: "ArifDev Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
     creator: "@toukoum",
   },

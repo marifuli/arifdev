@@ -8,18 +8,18 @@ export const getInternship = tool({
   execute: async () => {
     return `Here’s what I’m looking for 👇
 
-- 📅 **Duration**: 6-month internship starting **September 2025**
-- 🌍 **Location**: Preferably **San Francisco** or anywhere in the **United States**
+- 📅 **Duration**: Minimum 1 year with 1 month notice
+- 🌍 **Location**: Preferably any country in Asia or anywhere in the world
 - 🧑‍💻 **Focus**: AI development, full-stack web apps, SaaS, agentic workflows
-- 🛠️ **Stack**: Python, React/Next.js, Tailwind CSS, TypeScript, GPT, RAG, etc.
-- 💼 **Visa**: I’m based in Paris 🇫🇷 so I might need **J-1 sponsorship**
-- ✅ **What I bring**: Real experience with secure on-prem GPTs (Lighton), deepsearch engines, custom RAG tools, and hackathon wins like **ETH Oxford** & **Paris Blockchain Week**
+- 🛠️ **Stack**: PHP, Laravel, Python, Vue/Nuxt.js, Tailwind CSS, TypeScript etc.
+- 💼 **Visa**: I’m based in Bangladesh so I might need some **sponsorship**. Depends on your country.
+- ✅ **What I bring**: Real experience with secure and enterprise applications. Can become almost any project from the table to make it reality.
 - 🔥 I move fast, learn faster, and I’m HUNGRYYYYY for big challenges
 
 📬 **Contact me** via:
-- Email: raphaelgiraud12@gmail.com
-- LinkedIn: [linkedin.com/in/raphael-giraud](https://www.linkedin.com/in/raphael-giraud-ai/)
-- GitHub: [github.com/raphaelgiraud](https://github.com/toukoum)
+- Email: admin@arifdev.com
+- LinkedIn: [linkedin.com/in/mdarifislam](https://www.linkedin.com/in/mdarifislam/)
+- GitHub: [github.com/marifuli](https://github.com/marifuli)
 
 Let's build cool shit together ✌️
     `;

@@ -2,7 +2,6 @@
 
 import FluidCursor from '@/components/FluidCursor';
 import { Button } from '@/components/ui/button';
-import { GithubButton } from '@/components/ui/github-button';
 import WelcomeModal from '@/components/welcome-modal';
 import { motion } from 'framer-motion';
 import {
@@ -88,19 +87,13 @@ export default function Home() {
           className="hidden bg-gradient-to-b from-neutral-500/10 to-neutral-500/0 bg-clip-text text-[10rem] leading-none font-black text-transparent select-none sm:block lg:text-[16rem]"
           style={{ marginBottom: '-2.5rem' }}
         >
-          Toukoum
+          ArifDev
         </div>
       </div>
 
       {/* GitHub button */}
       <div className="absolute top-6 right-8 z-20">
-        <GithubButton
-          //targetStars={68}
-          animationDuration={1.5}
-          label="Star"
-          size={'sm'}
-          repoUrl="https://github.com/toukoum/portfolio"
-        />
+
       </div>
 
       <div className="absolute top-6 left-6 z-20">
@@ -129,7 +122,7 @@ export default function Home() {
         </div>
 
         <h2 className="text-secondary-foreground mt-1 text-xl font-semibold md:text-2xl">
-          Hey, I'm Raphael 👋
+          Hey, I'm Ariful 👋
         </h2>
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">
           AI Portfolio
@@ -178,7 +171,7 @@ export default function Home() {
               aria-label="Submit question"
               className="flex items-center justify-center rounded-full bg-[#0171E3] p-2.5 text-white transition-colors hover:bg-blue-600 disabled:opacity-70 dark:bg-blue-600 dark:hover:bg-blue-700"
             >
-              <ArrowRight  className="h-5 w-5" />
+              <ArrowRight className="h-5 w-5" />
             </button>
           </div>
         </form>

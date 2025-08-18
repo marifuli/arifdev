@@ -135,7 +135,7 @@ const PROJECT_CONTENT = [
       },
       {
         name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
+        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=ArifDev',
       }
     ],
     images: [
@@ -398,16 +398,16 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
           <Separator className="my-4" />
           <div className="space-y-3">
             {projectData.links.map((link, index) => (
-                <a
+              <a
                 key={index}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-[#F5F5F7] flex items-center justify-between rounded-xl p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
-                >
+              >
                 <span className="font-light capitalize">{link.name}</span>
                 <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+              </a>
             ))}
           </div>
         </div>

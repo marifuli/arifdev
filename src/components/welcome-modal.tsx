@@ -31,7 +31,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
       onClick={() => setIsOpen(true)}
     >
       <Image
-        src="/logo-toukoum.svg"
+        src="/logo2.png"
         width={100}
         height={100}
         alt="Logo"
@@ -129,7 +129,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
               >
                 Start Chatting
               </Button>
-              <div
+              {/* <div
                 className="mt-6 flex cursor-pointer flex-wrap gap-1 text-center text-sm"
                 onClick={handleContactMe}
               >
@@ -139,7 +139,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
                 <div className="flex cursor-pointer items-center text-blue-500 hover:underline">
                   Contact me.
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </DialogContent>

@@ -75,7 +75,7 @@ const Avatar = dynamic<AvatarProps>(
       // Conditional rendering based on detection
       return (
         <div
-          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-20 w-20' : 'h-28 w-28'}`}
+          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-15 w-20' : 'h-15 w-28'}`}
         >
           <div
             className="relative cursor-pointer"
@@ -83,21 +83,15 @@ const Avatar = dynamic<AvatarProps>(
           >
             {isIOS() ? (
               <img
-                src="/landing-memojis.png"
+                src="/logo2.png"
                 alt="iOS avatar"
-                className="h-full w-full scale-[1.8] object-contain"
+                className="h-full w-full scale-[0.5] object-contain"
               />
             ) : (
-              <video
-                ref={videoRef}
-                className="h-full w-full scale-[1.8] object-contain"
-                muted
-                playsInline
-                loop
-              >
-                <source src="/final_memojis.webm" type="video/webm" />
-                <source src="/final_memojis_ios.mp4" type="video/mp4" />
-              </video>
+              <img
+                className="h-full w-full scale-[0.5] object-contain"
+                src="/logo2.png"
+              />
             )}
           </div>
         </div>
@@ -276,13 +270,13 @@ const Chat = () => {
   return (
     <div className="relative h-screen overflow-hidden">
       <div className="absolute top-6 right-8 z-51 flex flex-col-reverse items-center justify-center gap-1 md:flex-row">
-        <WelcomeModal
+        {/* <WelcomeModal
           trigger={
             <div className="hover:bg-accent cursor-pointer rounded-2xl px-3 py-1.5">
               <Info className="text-accent-foreground h-8" />
             </div>
           }
-        />
+        /> */}
       </div>
 
       {/* Fixed Avatar Header with Gradient */}
@@ -294,7 +288,7 @@ const Chat = () => {
         }}
       >
         <div
-          className={`transition-all duration-300 ease-in-out ${hasActiveTool ? 'pt-6 pb-0' : 'py-6'}`}
+          className={`transition-all duration-300 ease-in-out ${hasActiveTool ? 'pt-3 pb-3' : 'py-4'}`}
         >
           <div className="flex justify-center">
             <ClientOnly>

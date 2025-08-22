@@ -13,50 +13,30 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ArifDev Portfolio",
+  title: "ArifDev",
   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
   keywords: [
     "ArifDev",
-    "Portfolio",
-    "Developer",
-    "AI",
-    "Interactive",
-    "Memoji",
-    "Web Development",
-    "Full Stack",
-    "Next.js",
-    "React"
+    "Ariful islam",
+    "arifdev.com",
+    "Web developer"
   ],
   authors: [
     {
       name: "Ariful",
-      url: "https://toukoum.fr",
+      url: "https://arifdev.com",
     },
   ],
   creator: "ArifDev",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://toukoum.fr",
-    title: "ArifDev Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "ArifDev Portfolio",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "ArifDev Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@toukoum",
-  },
   icons: {
     icon: [
       {
-        url: "/favicon.svg",
+        url: "/logo2.png",
         sizes: "any",
       }
     ],
-    shortcut: "/favicon.svg?v=2",
-    apple: "/apple-touch-icon.svg?v=2",
+    shortcut: "/logo2.png?v=2",
+    apple: "/logo2.png?v=2",
   },
 };
 
@@ -69,11 +49,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <link rel="icon" href="/favicon.svg" sizes="any" />
+        <link rel="icon" href="/logo.png" sizes="any" />
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased mt-2",
           inter.variable,
         )}
       >

@@ -65,12 +65,12 @@ export default function ToolRenderer({
               </div>
             );
 
-          case 'getSports':
-            return (
-              <div key={toolCallId} className="w-full rounded-lg">
-                <Sports />
-              </div>
-            );
+          // case 'getSports':
+          //   return (
+          //     <div key={toolCallId} className="w-full rounded-lg">
+          //       <Sports />
+          //     </div>
+          //   );
 
           case 'getCrazy':
             return (

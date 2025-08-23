@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Code, Cpu, PenTool, Users } from 'lucide-react';
 
 const Skills = () => {
+
   const skillsData = [
     {
       category: 'Frontend Development',
@@ -16,10 +17,10 @@ const Skills = () => {
         'JavaScript/TypeScript',
         'Tailwind CSS',
         'Bootstrap',
-        'Next.js',
-        'React',
-        'Vercel AI SDK',
-        'Gsap',
+        'Nuxt.js',
+        'Vuejs',
+        'jQuery',
+        'Ionic Framework 5+',
       ],
       color: 'bg-blue-50 text-blue-600 border border-blue-200',
     },
@@ -27,24 +28,19 @@ const Skills = () => {
       category: 'Backend & Systems',
       icon: <Cpu className="h-5 w-5" />,
       skills: [
-        'Unix',
-        'C',
-        'C++',
+        'PHP',
+        'Laravel',
         'Python',
         'Typescript',
-        'Git',
-        'GitHub',
         'Docker',
+        'Firebase',
         'GCP',
-        'PostgreSQL',
+        'MySql', 'SQLite',
+        'Wordpress',
+        'Livewire', 'Django', 'Tkinter', 'PHPUnit',
+        'Paypal API', 'Stripe API'
       ],
       color: 'bg-emerald-50 text-emerald-600 border border-emerald-200',
-    },
-    {
-      category: 'Design & Creative Tools',
-      icon: <PenTool className="h-5 w-5" />,
-      skills: ['Figma', 'Davinci Code', 'Illustrator', 'Canva', 'Keynote'],
-      color: 'bg-indigo-50 text-indigo-600 border border-indigo-200',
     },
     {
       category: 'Soft Skills',
@@ -61,20 +57,13 @@ const Skills = () => {
       color: 'bg-amber-50 text-amber-600 border border-amber-200',
     },
     {
-      category: 'AI & Fullstack Engineering',
+      category: 'AI Engineering',
       icon: <Cpu className="h-5 w-5" />,
       skills: [
-        'LLM Providers (ChatGPT, Whisper, Groq, Mistral & Claude)',
+        'LLM Providers (Open AI, Whisper, Mistral & Claude etc.)',
         'AI Agents',
         'Prompt engineering',
-        'Vector databases (Weaviate, Pinecone)',
-        'RAG (Retrieval-Augmented Generation)',
-        'Tool routing & calling',
-        'Hugging Face Transformers',
-        'Vercel AI SDK',
-        'Supabase',
-        'Prisma',
-        'Next.js',
+        'Huggingface Model Deployment'
       ],
       color: 'bg-purple-50 text-purple-600 border border-purple-200',
     },

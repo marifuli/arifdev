@@ -75,7 +75,7 @@ const Avatar = dynamic<AvatarProps>(
       // Conditional rendering based on detection
       return (
         <div
-          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-15 w-20' : 'h-15 w-28'}`}
+          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-15 w-20' : 'h-15 w-20'}`}
         >
           <div
             className="relative cursor-pointer"

@@ -11,10 +11,10 @@ export function Resume() {
     title: "Ariful's Resume",
     description: 'Full Stack Developer • AI Specialist',
     fileType: 'PDF',
-    lastUpdated: 'March 2025',
-    fileSize: '0.5 MB',
-    previewImageSrc: '/resume_giraud_preview.png',
-    downloadUrl: '/resume_giraud.pdf',
+    lastUpdated: 'Aug 2025',
+    fileSize: '0.137 MB',
+    previewImageSrc: '/resume_preview.png',
+    downloadUrl: '/resume.pdf',
   };
 
   const handleDownload = () => {

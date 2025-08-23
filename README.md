@@ -63,8 +63,3 @@ Want to run this project locally? Here's what you need:
 - **OpenAI API Key**: Get it from [platform.openai.com](https://platform.openai.com/api-keys)
 - **GitHub Token**: Generate one at [github.com/settings/tokens](https://github.com/settings/personal-access-tokens) with repo access
 
-
-
-#### 🔖 Tags
-
-`#AIPortfolio` `#InnovationInTech` `#DigitalResume` `#JobSearch` `#TechInnovation` `#WebDevelopment` `#FutureTech`

@@ -7,331 +7,118 @@ import { url } from 'inspector';
 // Enhanced project content array with all projects
 const PROJECT_CONTENT = [
   {
-    title: 'Synto',
+    title: 'Daily News Highlight',
     description:
-      'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
+      'Daily News Highlight (DNH) is a news agreegator website with AI Crawler and AI news summarization. It has awesome news personalization that no other news website offers. The AI crawler currently works with more than 900 news sources and increasing every month.',
     techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'Web3.js',
-      'shadcn-ui',
+      'Laravel',
+      'MySQL',
+      'Nuxt.js',
+      'Boostrap',
       'TypeScript',
-      'Phantom Wallet',
-      'OpenAI API',
-      'Vercel AI SDK',
-      'Solana Agent kit',
-      'Neon',
-      'Prisma'
+      'Python',
+      'Custom AI Model',
     ],
-    date: '2025',
+    date: '2021',
     links: [
       {
         name: 'website',
-        url: 'https://synto.fun',
-      },
-      {
-        name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
+        url: 'https://dailynewshighlights.com/',
       },
       {
         name: 'X',
-        url: 'https://x.com/chainSynto',
+        url: 'https://twitter.com/DNHStreem',
       },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
-        name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
-      }
     ],
     images: [
       {
-        src: '/synto1.png',
-        alt: 'Synto landing page',
+        src: '/dnh.png',
+        alt: 'DNH landing page',
       },
       {
-        src: '/synto2.png',
-        alt: 'Synto chat interface',
+        src: '/dnh2.png',
+        alt: 'DNH News Personalization',
       },
       {
-        src: '/synto3.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto4.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto5.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto6.png',
-        alt: 'Synto chat interface',
+        src: '/dnh3.png',
+        alt: 'DNH Account Creation',
       },
     ],
   },
   {
-    title: 'Rrate',
+    title: 'Lernwelt',
     description:
-      "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
-    techStack: ['Html', 'Css', 'Javascript'],
+      'A comprehensive Learning Management Solution tailored for large schools and individual German teachers. It encompasses management of courses, assignments, exams, board exams, placement tests, and pre-tests. This rapidly growing software is designed to save time and enhance educational efficiency., Comprehensive Features: Facilitates the management of courses, assignments, exams, board exams, placement tests, and pre-tests, Wide Adoption: Successfully implemented in multiple schools, proving its effectiveness and reliability, Resource Sharing: Enables teachers to reuse and share assignments and quizzes both publicly and privately, enhancing collaboration and teaching efficiency, User-Friendly Interface: Designed to save time and streamline educational processes, making it a highly valued tool for educators, Professional Achievement: A project of personal pride, demonstrating my ability to create impactful and scalable educational software solutions.',
+    techStack: [
+      'Laravel',
+      'MySQL',
+      'Boostrap',
+      'Vuejs'
+    ],
+    date: '2022',
+    links: [
+      {
+        name: 'website',
+        url: 'https://lernwelt-deutsch.de/',
+      },
+    ],
+    images: [
+      {
+        src: '/lernwelt-1.png',
+        alt: 'Login Page',
+      },
+      {
+        src: '/lernwelt-2.png',
+        alt: 'Dashboard page',
+      },
+      {
+        src: '/lernwelt-3.png',
+        alt: 'Exam Landing page',
+      },
+      {
+        src: '/lernwelt-4.png',
+        alt: 'Exam Main page',
+      },
+    ],
+  },
+  {
+    title: 'ProHR',
+    description:
+      'A versatile HR management and payroll system that simplifies employee management and automates salary calculations. Remote Accessibility: Engineered a fully online HR management and payroll system, enabling seamless access from any location, thus supporting the growing need for remote work flexibility. Integrated Attendance System: Developed an integrated attendance management feature that supports ZKTeco terminals, facilitating accurate employee attendance tracking through fingerprint and face recognition technology. Flexible Licensing Models: Offered the solution via both subscription-based and self-hosting licenses, providing companies with flexible deployment options that cater to their specific needs and infrastructure. Multi-Branch Support: Implemented support for multi-branch operations, enabling the system to manage and streamline HR functions across various company branches effectively. Comprehensive HR Control: Enabled HR departments to manage employee information directly on attendance devices and monitor attendance in real time, enhancing operational efficiency. Windows Application Development: Utilized Python to develop a Windows application that automatically connects ZKTeco attendance terminals with the cloud, ensuring seamless synchronization of employee data and biometric information, thereby automating and simplifying attendance management processes.',
+    techStack: [
+      'Laravel',
+      'MySQL',
+      'Boostrap',
+      'Python'
+    ],
     date: '2024',
     links: [
       {
         name: 'website',
-        url: 'https://rrate.app',
+        url: 'https://app.prohrbd.com',
       },
-      {
-        name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
-      },
-    ],
-    images: [
-      {
-        src: '/rrate1.png',
-        alt: 'Rrate landing page',
-      },
-      {
-        src: '/rrate2.png',
-        alt: 'Rrate comparison page',
-      },
-      {
-        src: '/rrate3.png',
-        alt: 'Rrate comparison page',
-      },
-    ],
-  },
-  {
-    title: 'Defai',
-    description:
-      "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Vercel AI SDK',
-      'TypeScript',
-    ],
-    date: '2025',
-    links: [
       {
         name: 'website',
-        url: 'https://dorahacks.io/buidl/22605',
-      },
-      {
-        name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
-      },
-      {
-        name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=ArifDev',
-      }
-    ],
-    images: [
-      {
-        src: '/defai1.png',
-        alt: 'Landing Page of Defai',
-      },
-      {
-        src: '/defai2.png',
-        alt: 'Confirmation popup of Defai',
-      },
-      {
-        src: '/defai3.png',
-        alt: 'Chatbot of Defai',
-      },
-      {
-        src: '/defai4.jpeg',
-        alt: 'Winner team',
-      },
-    ],
-  },
-  {
-    title: 'Fitgear',
-    description:
-      'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
-    techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
-    date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
+        url: 'http://demo.prohrbd.com/',
       },
     ],
     images: [
       {
-        src: '/fitgear2.png',
-        alt: 'Fitgear chatbot',
+        src: '/prohr4.png',
+        alt: 'Landing page',
       },
       {
-        src: '/fitgear1.png',
-        alt: 'Fitgear landing page',
-      },
-    ],
-  },
-  {
-    title: 'Datai',
-    description:
-      "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Claude API',
-      'TypeScript',
-    ],
-    date: '2024',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
+        src: '/prohr3.png',
+        alt: 'Pricing page',
       },
       {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
-      }
-    ],
-    images: [
-      {
-        src: '/datai1.png',
-        alt: 'Datai landing page',
+        src: '/prohr2.png',
+        alt: 'Demo Login',
       },
       {
-        src: '/datai2.png',
-        alt: 'Datai chatbot',
+        src: '/prohr1.png',
+        alt: 'Demo Dashboard',
       },
-      {
-        src: '/datai3.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai4.png',
-        alt: 'Datai chatbot',
-      }
-    ],
-  },
-  {
-    title: '3d Pong Game',
-    description:
-      "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-    techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
-      },
-    ],
-    images: [
-      {
-        src: '/trans1.png',
-        alt: 'Transcendance landing page',
-      },
-      {
-        src: '/trans2.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans3.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans4.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans5.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans6.png',
-        alt: 'Transcendance game',
-      }
-
-    ],
-  },
-  {
-    title: 'Minishell',
-    description:
-      "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
-    techStack: ['C', 'Unix', 'Bash'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
-      },
-    ],
-    images: [
-      {
-        src: '/minishell1.png',
-        alt: 'Minishell landing page',
-      }
-    ],
-  },
-  {
-    title: 'YouBot',
-    description:
-      'YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.',
-    techStack: ['Python', 'YouTube API', 'Pexels API'],
-    date: '2022',
-    links: [
-      {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
-      }
-    ],
-    images: [
-      {
-        src: '/youbot1.jpg',
-        alt: 'Youbot landing page',
-      },
-      {
-        src: '/youbot2.png',
-        alt: 'Youbot chatbot',
-      },
-    ],
-  },
-  {
-    title: 'Old Portfolio',
-    description:
-      'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-    date: '2022',
-    links: [
-      {
-        name: 'Website',
-        url: 'https://toukoum.github.io/oldPortfolio/',
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/portfolio',
-      },
-    ],
-    images: [
-      {
-        src: '/oldport1.png',
-        alt: 'Old Portfolio landing page',
-      },
-      {
-        src: '/oldport2.png',
-        alt: 'Old Portfolio projects',
-      }
     ],
   },
 ];
@@ -440,57 +227,21 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // Main data export with updated content
 export const data = [
   {
-    category: 'Startup Project',
-    title: 'Synto',
-    src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Synto' }} />,
+    category: 'News Project',
+    title: 'DNH',
+    src: '/dnh.png',
+    content: <ProjectContent project={{ title: 'DNH' }} />,
   },
   {
-    category: 'Fun Tool',
-    title: 'Rrate',
-    src: '/ratepreview.png',
-    content: <ProjectContent project={{ title: 'Rrate' }} />,
+    category: 'LMS Project',
+    title: 'Lernwelt',
+    src: '/lernwelt-2.png',
+    content: <ProjectContent project={{ title: 'Lernwelt' }} />,
   },
   {
-    category: 'Hackathon Winner',
-    title: 'Defai',
-    src: '/defaipreview.png',
-    content: <ProjectContent project={{ title: 'Defai' }} />,
-  },
-  {
-    category: 'Hackathon Winner',
-    title: 'Fitgear',
-    src: '/fitgearpreview.png',
-    content: <ProjectContent project={{ title: 'Fitgear' }} />,
-  },
-  {
-    category: 'Business Intelligence',
-    title: 'Datai',
-    src: '/dataipreview.png',
-    content: <ProjectContent project={{ title: 'Datai' }} />,
-  },
-  {
-    category: '42 Project',
-    title: '3d Pong Game',
-    src: '/transcendancepreview.png',
-    content: <ProjectContent project={{ title: '3d Pong Game' }} />,
-  },
-  {
-    category: '42 Project',
-    title: 'Minishell',
-    src: '/minishellpreview.png',
-    content: <ProjectContent project={{ title: 'Minishell' }} />,
-  },
-  {
-    category: 'Automation',
-    title: 'YouBot',
-    src: '/youbotpreview.png',
-    content: <ProjectContent project={{ title: 'YouBot' }} />,
-  },
-  {
-    category: 'Web Development',
-    title: 'Old Portfolio',
-    src: '/oldportfoliopreview.png',
-    content: <ProjectContent project={{ title: 'Old Portfolio' }} />,
+    category: 'HRMS Project',
+    title: 'ProHR',
+    src: '/prohr1.png',
+    content: <ProjectContent project={{ title: 'ProHR' }} />,
   },
 ];
